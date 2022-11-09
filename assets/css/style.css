@@ -5,7 +5,9 @@
 
 }
 /* Phần thân chứa tất cả hiển thị trên web */
-
+#wrapper {
+    
+}
 /* Phần đầu trang */
 #header {
     height: 126px;
@@ -14,8 +16,30 @@
 
 }
 /* Phần điều hướng */
-#navigation {
+#navtop {
 
+}
+#navtop li {
+    display: inline-block;
+}
+#navmid li {
+    display: inline-block;
+}
+#navbot li {
+    display: inline-block;
+}
+#navtop .button {
+    display: none;
+}
+#navmid .button {
+    display: none;
+}
+#navbot .button {
+    display: none;
+}
+#navtop li a {
+    color: #23085a;
+    background-color: #00dcff;
 }
 /* Phần xác định vị trí các trang con */
 #breadcrumb {
