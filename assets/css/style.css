@@ -10,14 +10,15 @@
 }
 /* Phần đầu trang */
 #header {
-    height: 126px;
+    height: 171px;
     border-top: 45px;
     background-color: #23085a;
-
+    position: relative;
+    font: 14px Arial;
 }
 /* Phần điều hướng */
 #navtop {
-
+    position: relative;
 }
 #navtop li {
     display: inline-block;
@@ -29,26 +30,201 @@
     display: inline-block;
 }
 #navtop .button {
-    display: none;
+    /* display: none; */
+    position: absolute;
 }
 #navmid .button {
     display: none;
 }
-#navbot .button {
-    display: none;
+
+#navtop {
+    position: absolute;
+    left: 40%;
+    
+
 }
+#navtop li {
+   top: -30px;
+}
+
+
 #navtop li a {
     color: #23085a;
+    text-decoration: none;
+    background-color: aliceblue;
+    line-height: center;
+    height: 21px;
+    width: 128px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: content-box;
+   
+    
+    
+}
+.ti-search {
+    font-size: 12px;
+}
+#navtop .button:active {
+    background-color: #00dcff;
+    
+}
+#navtop li a:hover {
     background-color: #00dcff;
 }
+#navmid {
+    position: absolute;
+    bottom: 50%;
+    left: 21%;
+}
+#navmid li {
+    color:00dcff;
+  
+}
+#navmid li a {
+    color: azure;
+    text-decoration: none;
+}
+#navmid-left {
+    height: 34px;
+    width: 118px;
+    padding-bottom: 5px;
+    font: 20px Helvetica;
+    font-weight: bold;
+    box-sizing: content-box;
+   
+    
+}
+.ti-layout-grid2 {
+    font-size: 20px;
+}
+#navmid-center {
+    height: 34px;
+    width: 120px;
+    padding-left: 20px;
+    border-left: 1px;
+    margin-left: 20px;
+    border-left-style: groove;
+    font: 24px sans-serif;
+    font-weight: bold;
+    box-sizing: content-box;
+}#navmid-right {
+    position: absolute;
+    right: -764px;
+    
+}
+#navmid-right:hover {
+    text-decoration: underline;
+}
+
+#navbot {
+    position: absolute;
+    bottom: 10px;
+    left: 21%;
+}
+#navbot li a {
+    color: #23085a;
+    text-decoration: none;
+    background-color: aliceblue;
+    line-height: auto;
+    height: 75px;
+    width: 21px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+#navbot .button {
+    display: none;
+    position: absolute;
+   
+}
+#navbot li a:hover {
+    background-color: #00dcff;
+}
+
+
+
+
+
 /* Phần xác định vị trí các trang con */
 #breadcrumb {
 
 }
 /* Phần nội dung của web */
-#content {
-
+#slider {
+    
+    background-color:darkgray;
+    width: 100%;
+    height: 420px;
+    position: relative;
+    
 }
+#slider .slider1 img {
+    position: absolute;
+    left: 403px;
+    top: 32px;
+}
+#slider .slider1 .text-decription {
+    background-color: #ffff;
+    height: 360px;
+    position: absolute;
+    right: 428px;
+    width: 449px;
+    top: 32px;
+}
+#slider .slider1 .text-decription h2 {
+    text-align: center;
+    font: 17.76px Arial;
+    color: #333;
+    position: relative;
+    top: 50px;
+}
+#slider .slider1 .text-decription .text-decoration  {
+    position: relative;
+    top: 68px;
+    height: 289px;
+    width: 200px;
+    left: 127px;
+    font: 16px Arial ;
+    color: #333;
+}
+#slider .slider1 .text-decription a {
+     position: relative;
+     left: 100px;
+     text-decoration: none;
+     background-color: #23085a;
+     font: 14.4px Arial;
+     color: #ffff;
+     border-color: transparent;
+     margin: 0px 0px 30px;
+     padding: 14px 35px;
+     border: 2px;
+     box-sizing: border-box;
+    
+}
+#content { 
+    height: 244px;
+     width: 1089px;
+     background-color: LightGray;
+     position: relative;
+     left: 403px;
+}
+#content .part1 .para1 {
+    position: absolute;
+    right: 449px;
+     
+}
+#content .part1 .para1 h1 {
+    font: 24px Arial;
+    margin: 0px 0px 24px;
+    color: #23085a;
+    margin-inline-start: 20px;
+}
+
 /* Phần cuối trang */
 #footer {
 
