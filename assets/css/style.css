@@ -178,18 +178,19 @@
 }
 #slider .slider1 .text-decription h2 {
     text-align: center;
-    font: 17.76px Arial;
-    color: #333;
+    font: 21px Arial;
+    color: rgb(26, 25, 25);
     position: relative;
     top: 50px;
+    left: -78px;
 }
 #slider .slider1 .text-decription .text-decoration  {
     position: relative;
-    top: 68px;
+    top: 80px;
     height: 289px;
     width: 200px;
-    left: 127px;
-    font: 16px Arial ;
+    left: 63px;
+    font: 20px Arial ;
     color: #333;
 }
 #slider .slider1 .text-decription a {
@@ -204,25 +205,115 @@
      padding: 14px 35px;
      border: 2px;
      box-sizing: border-box;
+     left: 100px;
+     bottom: 20px;
     
+}
+#slider .slider1 .text-decription a:hover {
+    background-color: deeppink;
 }
 #content { 
     height: 244px;
-     width: 1089px;
-     background-color: LightGray;
-     position: relative;
-     left: 403px;
+    width: 1089px;
+    background-color: LightGray;
+    position: relative;
+    left: 403px;
+}
+#content .para1 {
+    position: absolute;
 }
 #content .part1 .para1 {
     position: absolute;
-    right: 449px;
-     
+    right: 480px;
+    width: 609px;
+    
 }
 #content .part1 .para1 h1 {
     font: 24px Arial;
-    margin: 0px 0px 24px;
+    margin: 0px 0px 20px;
     color: #23085a;
-    margin-inline-start: 20px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    
+}
+h1::before {
+    position: absolute;
+    left: 0;
+    bottom: -0.65em;
+    content: "";
+    background-color: #23085a;
+    width: 50px;
+    height: 5px;
+    border-radius: 4px;
+}
+#content .part1 .para1 h3 {
+    position: relative;
+    top: 30px;
+    left: 15px;
+    font: 16px Arial;
+    color: #54565a;
+    margin-bottom: 15px;
+    
+}
+#content .part1 .para1 .course1 a {
+    position: relative;
+    top: 55px;
+    left: 15px;
+    color: #23085a;
+    text-decoration: none;
+    font: 17.76px Arial;
+    font-weight: 300px;
+
+}
+
+#content .part1 .para1 .course1 a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+#content .part1 .para1 .course2 a  {
+    position: relative;
+    top: 34px;
+    left: 346px;
+    color: #23085a;
+    text-decoration: none;
+    font: 17.76px Arial;
+    font-weight: 300px;
+
+}
+#content .part1 .para1 .course2 a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+#content .part2 {
+    position: relative;
+    top: 20px;
+    left: 640px;
+    width: 449px;
+    height: 224px;
+    
+}
+#content .part2 h3 {
+    color: #54565a;
+    font: 16px Arial;
+    margin-bottom: 15px;
+}
+#content .part2 .sign-up a {
+    position: relative;
+    top: 51px;
+    left: 15px;
+    color: #23085a;
+    text-decoration: none;
+    font: 17.76px Arial;
+    font-weight: 300px;
+
+}
+#content .part2 .sign-up a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+#content2 .box1{
 }
 
 /* Phần cuối trang */
