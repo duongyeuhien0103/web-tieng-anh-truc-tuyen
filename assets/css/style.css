@@ -335,8 +335,7 @@ h1::before {
 }
 #content2 {
     width: auto;
-    height: 50000px;
-    background-color: #00dcff;
+    height: 750px;
     padding-top: 20px;
     
 }
@@ -418,8 +417,8 @@ h1::before {
     width: 343px;
     /* padding: 0px 10px; */
     background-color: LightGray;
-    top: 244px;
-    left: 746px;
+    top: 615px;
+    left: 0;
 }
 
 #content2 .box4 p {
@@ -437,14 +436,14 @@ h1::before {
     color: #000;
     text-decoration: underline;
 }
-/* #content2 .box5 {
+#content2 .box5 {
     position: absolute;
     height: 320px;
     width: 343px;
     
     background-color: LightGray;
-    top: 244px;
-    left: 746px;
+    top: 615px;
+    left: 373px;
 }
 
 #content2 .box5 p {
@@ -468,8 +467,8 @@ h1::before {
     width: 343px;
     
     background-color: LightGray;
-    top: 244px;
-    left: 746px;
+    top: 615px;
+    right: 0;
 }
 
 #content2 .box6 p {
@@ -486,9 +485,336 @@ h1::before {
 #content2 .box6 a:hover {
     color: #000;
     text-decoration: underline;
-} */
+   
+}
+#content3 {
+    width: auto;
+    height: 530px;
+    padding-top: 0px;
+    
+    
+}
+#content3 h1 {
+    font: 23.104px Arial;
+    padding-bottom: 10px;
+    color: #54565a;
+}
+#content3 .box7 {
+    position: relative;
+    height: 430px;
+    width: 343px;
+    margin-top: 20px;
+}
+#content3 .box7 a p {
+    padding-top: 30px;
+    padding-bottom: 20px ;
+    text-decoration: none;
+    font: 20.8px Arial;
+
+}
+#content3 .box7 h3 {
+    font: 16px Arial;
+    line-height: 20px ;
+    color: #54565a;
+    margin-bottom: 30px;
+    
+}
+#content3 .box7 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+#content3 .box7 a {
+    
+    text-decoration: none;
+    
+}
+#content3 .box7 a h4 {
+    font: 16px Arial;
+    margin-bottom: 8px;
+}
+#content3 .box8 {
+    position: relative;
+    height: 430px;
+    width: 343px;
+    margin-top: 20px;
+    left: 373px;
+    top: -450px;
+  
+}
+#content3 .box8 a p {
+    padding-top: 30px;
+    padding-bottom: 20px ;
+    text-decoration: none;
+    font: 20.8px Arial;
+
+}
+#content3 .box8 h3 {
+    font: 16px Arial;
+    line-height: 20px ;
+    color: #54565a;
+    margin-bottom: 30px;
+    
+}
+#content3 .box8 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+#content3 .box8 a {
+    
+    text-decoration: none;
+    
+}
+#content3 .box8 a h4 {
+    font: 16px Arial;
+    margin-bottom: 8px;
+}
+#content3 .box9 {
+    position: relative;
+    height: 430px;
+    width: 343px;
+    margin-top: 20px;
+    left: 746px;
+    top: -900px;
+  
+}
+#content3 .box9 a p {
+    padding-top: 30px;
+    padding-bottom: 20px ;
+    text-decoration: none;
+    font: 20.8px Arial;
+
+}
+#content3 .box9 h3 {
+    font: 16px Arial;
+    line-height: 20px ;
+    color: #54565a;
+    margin-bottom: 30px;
+    
+}
+#content3 .box9 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+#content3 .box9 a {
+    
+    text-decoration: none;
+    
+}
+#content3 .box9 a h4 {
+    font: 16px Arial;
+    margin-bottom: 8px;
+}
 
 /* Phần cuối trang */
 #footer {
 
+    height: 625px;
+    background-color: #23085a;
+    position: relative;
+    top: 1250px;
+
 }
+#footer .first  {
+    position: relative;
+    left: 403px;
+    height: 377px;
+    width: 715px;
+    top: 50px;
+}
+.intro {
+    height: 346px;
+    width: 225px;
+    margin-right:0px 10px;
+}
+.intro ul {
+    list-style: none;
+}
+.intro .introduce>a {
+   color: #00dcff;
+   font: 15.096px Arial;
+   text-decoration: none;
+}
+.intro .note {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    
+}
+.intro .note a {
+    color: #ffff;
+    padding: 5px 0px;
+    text-decoration: none;
+    font: 13.6px Arial;
+    line-height: 17px;
+    display: block;
+    
+}
+.intro a:hover {
+    text-decoration: underline;
+}
+.teach {
+    position: relative;
+    height: 346px;
+    width: 225px;
+    margin-right:0px 10px;
+    top: -311px;
+    left: 279px;
+}
+.teach ul {
+    list-style: none;
+}
+.teach .introduce>a {
+   color: #00dcff;
+   font: 15.096px Arial;
+   text-decoration: none;
+}
+.teach .note2 {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    
+}
+.teach .note2 a {
+    color: #ffff;
+    padding: 5px 0px;
+    text-decoration: none;
+    font: 13.6px Arial;
+    line-height: 17px;
+    display: block;
+    
+}
+.teach a:hover {
+    text-decoration: underline;
+}
+.co-op {
+    position: relative;
+    height: 346px;
+    width: 225px;
+    margin-right:0px 10px;
+    top: -230px;
+    left: 254px;
+}
+.co-op ul {
+    list-style: none;
+}
+.teach .introduce>a {
+   color: #00dcff;
+   font: 15.096px Arial;
+   text-decoration: none;
+}
+.co-op .note3 {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    
+}
+.co-op .note3 a {
+    color: #ffff;
+    padding: 5px 0px;
+    text-decoration: none;
+    font: 13.6px Arial;
+    line-height: 17px;
+    display: block;
+    
+}
+.co-op a:hover {
+    text-decoration: underline;
+}
+.connect {
+    position: relative;
+    width: 225px;   
+    height: 328px;
+    top: -576px; 
+    left: 500px;
+}
+.connect h3 {
+    color: #ffff;
+    font: 15.096px Arial;
+    font-weight: 600;
+}
+.connect a {
+    font: 13.6px Arial;
+    color: #ffff;
+    display: block;
+    text-decoration: none;
+    line-height: 33px;
+    
+}
+.connect i {
+    font-size: 30px;
+}
+.second {
+    position: relative;
+    width: 960px;
+    height: 88px;
+    top: -275px;
+    border-top: 1px groove;
+    padding-top: 30px;
+    
+    
+    
+
+}
+.second li {
+    display: inline-block;
+    
+}
+.second li>a {
+    text-decoration: none;
+    color: #ffff;
+    font: 13.6px Arial;
+    padding-left: 10px ;
+    border-right: 1px groove;
+    padding-right: 12px;
+    
+    
+}
+.head-senten a {
+    text-decoration: none;
+    color: #ffff;
+    font: 13.6px Arial;
+    border-right: 1px groove;
+    padding-right: 12px;
+}
+.end-senten a {
+    text-decoration: none;
+    color: #ffff;
+    font: 13.6px Arial;
+    padding-left: 10px ;
+}
+.third {
+    position: relative;
+    width: 960px;
+    height: 88px;
+    top: 114px;
+}
+.third h2 {
+    color: #ffff;
+    font: 14px Arial;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
