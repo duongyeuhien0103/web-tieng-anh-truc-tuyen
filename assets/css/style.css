@@ -5,12 +5,12 @@
 
 }
 html {
-    width: 1920px;
+    width: 100vw;
     height: 2710px;
 }
 /* Phần thân chứa tất cả hiển thị trên web */
 body {
-    width: 1920px;
+    width: 100vw;
     height: 2710px;
     
 }
@@ -98,13 +98,19 @@ body {
 }
 #navmid ul {
     position: relative;
+    display: block;
     bottom: 50%;
-    left: 21%;
+    /* left: 21%; */
     top: 18px;
     height: 77px;
+    padding-left: 21%;
+
 }
-#navmid li {
+#navmid ul>li {
     color:00dcff;
+    display: inline-block;
+    
+    
   
 }
 #navmid li a {
@@ -134,12 +140,13 @@ body {
     box-sizing: content-box;
     position: absolute;
     top: 7px;
+    color: #00dcff;
 }
 #navmid .navmid-right {
     position: absolute;
-    right: 100px;
+    /* right: 100px; */
     top: 20px;
-    left: 996px;
+    left: 1230px;
     
 }
 #navmid .navmid-right:hover {
@@ -629,7 +636,7 @@ h1::before {
 
 }
 #footer .first  {
-    position: relative;
+    position: absolute;
     left: 403px;
     height: 377px;
     width: 715px;
@@ -735,11 +742,11 @@ h1::before {
     text-decoration: underline;
 }
 .connect {
-    position: relative;
+    position: absolute;
     width: 225px;   
     height: 328px;
-    top: -576px; 
-    left: 500px;
+    top: -0px; 
+    left: 525px;
 }
 .connect h3 {
     color: #ffff;
@@ -759,7 +766,7 @@ h1::before {
 }
 .second {
     position: relative;
-    width: 960px;
+    width: 1030px;
     height: 88px;
     top: -275px;
     border-top: 1px groove;
