@@ -4,9 +4,21 @@
     box-sizing: border-box;
 
 }
+html {
+    width: 1920px;
+    height: 2710px;
+}
 /* Phần thân chứa tất cả hiển thị trên web */
-#wrapper {
+body {
+    width: 1920px;
+    height: 2710px;
     
+}
+#wrapper {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 /* Phần đầu trang */
 #header {
@@ -17,9 +29,6 @@
     font: 14px Arial;
 }
 /* Phần điều hướng */
-#navtop {
-    position: relative;
-}
 #navtop li {
     display: inline-block;
 }
@@ -36,10 +45,12 @@
 
 #navtop {
     position: relative;
-    left: 40%;
+    left: 0px;
     height: 40px;
     border-bottom: 15px;
-    
+    width: 1920px;
+    text-align: center;
+    padding-left: 330px;
 
 }
 #navtop li {
@@ -82,7 +93,7 @@
     background-color: #00dcff;
 }
 #navtop .button  {
-    /* display: none; */
+    display: none;
     position: absolute;
 }
 #navmid ul {
@@ -164,6 +175,9 @@
 
 #navbot li .box-a a {
    background-color: #00dcff;
+}
+#navbot .button a:hover {
+    background-color: #00dcff;
 }
 
 
@@ -792,7 +806,6 @@ h1::before {
     color: #ffff;
     font: 14px Arial;
 }
-
 
     
 
